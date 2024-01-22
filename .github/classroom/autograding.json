@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "regression.py",
+      "setup": "sudo -H pip3 install pytest torch",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
