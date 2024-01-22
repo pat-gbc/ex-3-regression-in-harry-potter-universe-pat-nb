@@ -20,7 +20,7 @@ def train_iteration(X, y, model, loss_fn, optimizer):
 
 
 def fit_regression_model(X, y):
-    learning_rate = 0.01 # Pick a better learning rate
+    learning_rate = 0.001 # Pick a better learning rate
     num_epochs = 10000 # Pick a better number of epochs
     input_features = X.shape[1] # extract the number of features from the input `shape` of X
     output_features = y.shape[1] # extract the number of features from the output `shape` of y
